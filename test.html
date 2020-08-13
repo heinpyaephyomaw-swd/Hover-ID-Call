@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .parent{
+            height: 100vh;
+            background: #e3e3e3;
+            padding: 50px;
+        }
+        button{
+            padding: 7px 40px;
+            border-radius: 5px;
+            outline: none;
+            background: gray;
+            color: #fff;
+            font-size: 20px;
+            font-family: arial;
+        }
+        .list > a{
+            float: none;
+            display: block;
+            padding: 10px 17px;
+            text-decoration: none;
+            font-size: 17px;
+            font-family: arial;
+            color:#fff;
+            display: none;
+            background: #888;
+            border: 1px solid gray;
+        }
+        .more_list{
+            position: fixed;
+            top: 10px;
+            right: 100px;
+        }
+        .more_list:hover a{
+            display: block;
+        }
+        .list>a:hover{
+            background: #222;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <section class="parent" id="home">
+        <div class="more_list">
+            <button>More</button>
+            <div class="list">
+                <a href="#home">Home</a>
+                <a href="#service">Service</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact_us">Contact Us</a>
+                <a href="#activity">Activity</a>
+            </div>
+        </div>
+
+        <h1>Home</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore incidunt exercitationem obcaecati porro maiores tempora consequatur repellat numquam, molestiae quae reprehenderit nihil similique molestias nam vitae odio labore error veniam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae non provident ullam quam odit inventore error. Facilis cum quidem ipsum, reprehenderit eveniet, blanditiis aperiam rerum voluptatum atque obcaecati ut dignissimos?</p>
+    </section>
+
+    <section class="parent" id="service">
+        <h1>Service</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore incidunt exercitationem obcaecati porro maiores tempora consequatur repellat numquam, molestiae quae reprehenderit nihil similique molestias nam vitae odio labore error veniam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae non provident ullam quam odit inventore error. Facilis cum quidem ipsum, reprehenderit eveniet, blanditiis aperiam rerum voluptatum atque obcaecati ut dignissimos?</p>
+    </section>
+    <section class="parent" id="gallery">
+        <h1>Gallery</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore incidunt exercitationem obcaecati porro maiores tempora consequatur repellat numquam, molestiae quae reprehenderit nihil similique molestias nam vitae odio labore error veniam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae non provident ullam quam odit inventore error. Facilis cum quidem ipsum, reprehenderit eveniet, blanditiis aperiam rerum voluptatum atque obcaecati ut dignissimos?</p>
+    </section>
+    <section class="parent" id="contact_us">
+        <h1>Contact Us</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore incidunt exercitationem obcaecati porro maiores tempora consequatur repellat numquam, molestiae quae reprehenderit nihil similique molestias nam vitae odio labore error veniam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae non provident ullam quam odit inventore error. Facilis cum quidem ipsum, reprehenderit eveniet, blanditiis aperiam rerum voluptatum atque obcaecati ut dignissimos?</p>
+    </section>
+    <section class="parent" id="activity">
+        <h1>Activity</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore incidunt exercitationem obcaecati porro maiores tempora consequatur repellat numquam, molestiae quae reprehenderit nihil similique molestias nam vitae odio labore error veniam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae non provident ullam quam odit inventore error. Facilis cum quidem ipsum, reprehenderit eveniet, blanditiis aperiam rerum voluptatum atque obcaecati ut dignissimos?</p>
+    </section>
+    
+</html>
